@@ -1,11 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome!</title>
+    <title>Hemant - WebD Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 </head>
+
 <body>
-    <h1>Hello I am hosting this site!</h1>
+    <!-- header -- navbar  -->
+    <header>
+        <nav>
+            <div class="left">Hemant's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li> <a href="#home" class="link">Home</a> </li>
+                    <li> <a href="#about" class="link">About</a> </li>
+                    <li> <a href="#services" class="link">Services</a> </li>
+                    <li> <a href="#project" class="link">Projects</a> </li>
+                    <li> <a href="#contact" class="link">Contact Me</a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- profile + intro -->
+        <section class="home slideLeft" id="home">
+            <div class="leftSection">
+                Hey! My name is <span class="text-cyan">Hemant</span>
+                <div>and I am a passionate</div>
+                <!-- Element to contain animated typing -->
+                <span id="element" class="text-cyan"></span>
+                <!-- <div class="leftSection-icon">
+                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="#"><i class='bx bxl-gmail' ></i></a>
+                    <a href="#"><i class='bx bxl-github' ></i></a>
+                </div>
+                <button class="btn-box1">Learn More</button> -->
+            </div>
+            <div class="rightSection">
+                <img src="image1.png" alt="Image" cover no-repeat>
+            </div>
+        </section>
+        
+        <hr>
+        
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="image2.png" alt="image">
+            </div>
+            <div class="about-text">
+                <h2>About <span>Me</span></h2>
+                <h4>Web Developer</h4>
+                <p>I'm an enthusiastic and committed person starting in the web development industry. I have a solid understanding of <span class="text-cyan">HTML, CSS, JavaScript, C, C++, and Python</span>.
+                    I am skilled at working both alone and cooperatively as a team player, and I have a good eye for detail. In my DSA journey, I have developed outstanding problem-solving skills, and I am very interested in learning about new technologies and frameworks like <span class="text-cyan">ReactJS, and NodeJS/ExpressJS</span>. 
+                    <br><br>
+                    <span class="text-cyan">Looking forward to connect with great minds!</span>
+                </p>
+                <!-- <a href="#" class="btn-box2">More About Me</a> -->
+            </div>
+        </section>
+
+        <hr>
+        
+        <!-- Services Section -->
+        <section>
+            <div class="services" id="services">
+                <div class="container">
+                    <h1 class="sub-title">My <span>Services</span></h1>
+                    <div class="services-list">
+                        <div>
+                            <i class='bx bx-code-alt' style="color: aqua;"></i>
+                            <h2>FrontEnd Designer</h2>
+                            <p>I am quite knowledgeable with <span class="text-cyan">HTML, CSS, and JavaScript</span>. I can therefore clone and develop any Front End application.</p>
+                            <!-- <a href="#" class="service-learn-more">Learn More</a> -->
+
+                        </div>
+                        <div>
+                            <i class='bx bx-palette' style="color: aqua;"></i>
+                            <h2>Video Editor</h2>
+                            <p>Proficient in video editing with expertise in <span class="text-cyan">Davinci Resolve, Clip-Cut, and Filmora</span>. Extensive knowledge and experience in these editing software.</p>
+                            <!-- <a href="#" class="service-learn-more">Learn More</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Project Section -->
+        <section>
+            <div class="project" id="project">
+                <div class="container2">
+                    <h1 class="project-title">Latest <span>Project</span></h1>
+                    <div class="project-list">
+                        <div>
+                            <i class='bx bxs-watch-alt' style="color: aqua;"></i>
+                            <h2>Digital Watch</h2>
+                            <p>Developed a basic Python project focused on a <span class="text-cyan">Digital Clock application</span>.</p>
+                            <a href="https://github.com/hemantyadav8006/Digital-Clock" class="github-icon"><i class='bx bxl-github' ></i></a>
+
+                        </div>
+                        <div>
+                            <i class='bx bxs-calculator' style="color: aqua;"></i>
+                            <h2>Calculator</h2>
+                            <p>Developed a basic Python project focused on a <span class="text-cyan">Calculator application</span>.</p>
+                            <a href="https://github.com/hemantyadav8006/Calculator" class="github-icon"><i class='bx bxl-github' ></i></a>
+                        </div>
+                        <div>
+                            <i class='bx bxs-calculator' style="color: aqua;"></i>
+                            <h2>Gym Website</h2>
+                            <p><span class="text-cyan">Developed a dynamic, mobile-responsive GYM website</span>, resulting in a 30% increase in online membership sign-ups and a 20% decrease in bounce rate.</p>
+                            <a href="https://hemantyadav8006.github.io/Fitness-Website.github.io/" class="github-icon"><i class='bx bxl-github' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="contact-text">
+                <h2>Contact <span>Me</span></h2>
+                <h4>Let's work Together</h4>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nisi animi amet odio odit nihil labore asperiores architecto tempora, sint itaque eum harum aliquid cum illum dolorem temporibus voluptatibus sapiente.</p> -->
+                <div class="contact-list">
+                    <li><i class='bx bx-mail-send'></i>hemantyadav8006@gmail.com</li>
+                    <li><i class="bx bxs-phone"></i>91++++++++</li>
+                </div>
+                <!-- <div class="contact-icons">
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="#"><i class='bx bxl-github' ></i></a>
+                </div> -->
+            </div>
+            <div class="contact-form">
+                <form action="#">
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="emal" placeholder="Enter Your Email" required>
+
+                    <input type="" placeholder="Enter Your Subject">
+                    <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+                    <input type="submit" value="Submit" class="send">
+                </form>
+            </div>
+        </section>
+        
+        <hr>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <span class="copyright">© 2021 Copyright: <a href="#">@hemantyadav</a></span>
+            <span class="footer-icon">
+                <a href="#"><i class='bx bxl-gmail' ></i></a>
+                <a href="https://www.linkedin.com/in/hemant-kumar-yadav-488595215/"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/hemantyadav8006"><i class='bx bxl-github' ></i></a>
+            </span>
+            <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+        </footer>
+    </main>
+
+    
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+    <script src="script.js"></script>
+
 </body>
+
 </html>
